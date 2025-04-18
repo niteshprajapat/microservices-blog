@@ -7,3 +7,5 @@ class UserRepository {
         return user;
     }
 }
+
+export default new UserRepository();
