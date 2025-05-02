@@ -16,6 +16,7 @@ mongoose.connect(process.env.MONGO_URI)
 // route middlewares
 app.use('/api/users', userRoutes);
 app.use();
+app.use();
 
 
 const PORT = process.env.PORT || 3001;
