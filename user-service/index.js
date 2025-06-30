@@ -15,7 +15,6 @@ mongoose.connect(process.env.MONGO_URI)
     .catch(err => console.log(err));
 // route middlewares
 app.use('/api/users', userRoutes);
-app.use();
 
 
 
