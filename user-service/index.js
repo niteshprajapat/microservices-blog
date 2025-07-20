@@ -15,9 +15,9 @@ mongoose.connect(process.env.MONGO_URI)
     .catch(err => console.log(err));
 // route middlewares
 app.use('/api/users', userRoutes);
-app.use()
+app.use();
 
 
 
 const PORT = process.env.PORT || 3001;
-app.listen(PORT, () => console.log(`User Service running on port ${PORT}`));
+app.listen(PORT, () => console.log(`User Service running on port ${PORT}`))
