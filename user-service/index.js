@@ -14,7 +14,6 @@ mongoose.connect(process.env.MONGO_URI)
     .then(() => console.log('User Service DB Connected'))
     .catch(err => console.log(err));
 // route middlewares
-app.use('/api/users', userRoutes);
 
 
 
