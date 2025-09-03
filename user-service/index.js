@@ -13,7 +13,7 @@ app.use(cors());
 mongoose.connect(process.env.MONGO_URI)
     .then(() => console.log('User Service DB Connected'))
     .catch(err => console.log(err));
-// route middlewares
+
 
 
 
