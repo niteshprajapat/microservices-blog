@@ -17,5 +17,5 @@ mongoose.connect(process.env.MONGO_URI)
 
 
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT 
 app.listen(PORT, () => console.log(`User Service running on port ${PORT}`))
