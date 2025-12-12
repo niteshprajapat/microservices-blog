@@ -12,10 +12,10 @@ app.use(express.urlencoded({ extended: true }))
 
 mongoose.connect(process.env.MONGO_URI)
     .then(() => console.log('User Service DB Connected'))
-    .catch(err => console.log(err))
+    .catch(err => console.log(err));
 
 
 
 
 const PORT = process.env.PORT;
-app.listen(PORT, () => console.log(`User Service running on port ${PORT}`))
+app.listen(PORT, () => console.log(`User Service running on port ${PORT}`));
