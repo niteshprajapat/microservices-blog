@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true }))
 
 mongoose.connect(process.env.MONGO_URI)
     .then(() => console.log('User Service DB Connected'))
-    .catch(err => console.log(err));
+    .catch(err => console.log(err))
 
 
 
